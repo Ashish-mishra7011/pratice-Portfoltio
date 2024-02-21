@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    color: #ededed;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: cneter;
+    z-index: 100;
+}
+
+.logo {
+    position: relative;
+    left: 30px;
+    font-size: 30px;
+    color: #a786ef;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    display: inline-block;
+    font-size: 25px;
+    color: #de7495;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 35px;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #0ef;
+}
+
+.home {
+    border: 2px solid red;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background: #10395b;
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+
+.home-content h3 {
+    font-size: 26px;
+    font-weight: 700;
+    padding: 2px;
+}
+
+.home-content h1 {
+    font-size: 52px;
+    font-weight: 700;
+    padding: 2px;
+}
+
+.home-content p {
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 2rem;
+}
+
+.home-content h3 span {
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+}
+
+.mylogo {
+    position: absolute;
+    right: 10%;
+    top: 28%;
+    background: linear-gradient(135deg, rgba(245, 246, 248, 0.1), rgba(247, 247, 248, 0.1));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(62, 71, 105, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border-radius: 40%;
+    transition: .2s;
+}
+
+.mylogo:hover {
+    border-radius: 10%;
+    scale: 1.1;
+}
+
+.mylogo img {
+    height: 60vh;
+    width: 25vw;
+    background-size: 100%;
+    background-position: center;
+    /* border: 2px solid green; */
+    border-radius: 40%;
+}
+
+.textside {}
